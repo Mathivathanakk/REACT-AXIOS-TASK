@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika+Negative:wght@300..700&display=swap");
+* {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: x-large;
+  padding: 8px;
+  font-weight: bolder;
+  color: #ffe4c4 !important;
+}
+.navbar {
+  background-color: rgb(107, 38, 172);
+}
+footer {
+  background-color: rgb(107, 38, 172);
+}
+footer p {
+  color: #ffe4c4 !important;
+}
+.home {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: x-large !important;
+  border-radius: 30px;
+  background-color: rgb(229, 201, 255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
