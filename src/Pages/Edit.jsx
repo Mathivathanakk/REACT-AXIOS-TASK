@@ -35,7 +35,7 @@ const Edit = ({ id }) => {
   const fetchData = async () => {
     await axios
       .get(
-        `https://664800bf2bb946cf2f9f6c77.mockapi.io/api/persondetails/${id}`
+        `https://664de975ede9a2b556557010.mockapi.io/api/details/${id}`
       )
       .then((res) => setEditData(res.data))
       .catch((error) => console.log(error));
@@ -65,7 +65,7 @@ const Edit = ({ id }) => {
     e.preventDefault();
     await axios
       .put(
-        `https://664800bf2bb946cf2f9f6c77.mockapi.io/api/persondetails/${id}`,
+        `https://664de975ede9a2b556557010.mockapi.io/api/details/${id}`,
         editData
       )
       .then((res) => console.log(res.data))

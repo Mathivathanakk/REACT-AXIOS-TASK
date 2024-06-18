@@ -51,7 +51,7 @@ const Create = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://664800bf2bb946cf2f9f6c77.mockapi.io/api/persondetails",
+        "https://664de975ede9a2b556557010.mockapi.io/api/details",
         createData
       )
       .then((res) => console.log(res.data))

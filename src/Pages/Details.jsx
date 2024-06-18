@@ -16,7 +16,7 @@ const Details = ({ setId }) => {
   //fetching the data by get method using api
   const fetchData = async () => {
     await axios
-      .get("https://664800bf2bb946cf2f9f6c77.mockapi.io/api/persondetails")
+      .get("https://664de975ede9a2b556557010.mockapi.io/api/details")
       .then((res) => setDetailData(res.data))
       .catch((error) => console.log(error));
   };
@@ -32,7 +32,7 @@ const Details = ({ setId }) => {
   const handleDelete = async (id) => {
     await axios
       .delete(
-        `https://664800bf2bb946cf2f9f6c77.mockapi.io/api/persondetails/${id}`
+        `https://664de975ede9a2b556557010.mockapi.io/api/details/${id}`
       )
       .then((res) => setDeleteData(res.data))
       .catch((error) => console.log(error));
